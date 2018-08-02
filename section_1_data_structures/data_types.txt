@@ -1,0 +1,9 @@
+Data types in python:
+  -int: whole numbers
+  -float: numbers with decimal point
+  -string: char sequence
+  -list: ordered sequence of objects
+  -dictionaries: Key:Value pairs
+  -tuples: order immutable sequence of objects
+  -sets: unordered collection of unique objects
+  -booleans: true/false
