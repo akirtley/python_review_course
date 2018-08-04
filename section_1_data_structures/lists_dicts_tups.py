@@ -78,5 +78,45 @@ def main():
     print(f'Keys in nested dictionary: {nested_dictionary.keys()}')
     print(f'Values in nested dictionary: {nested_dictionary.values()}')
 
+
+    ## TUPLES
+    print('\n======')
+    print('TUPLES')
+    print('======')
+
+    # tuples are like lists but theyre immutable
+    # once in a tuple, you cannot reassign the value
+    # use parenthesis to declare a tuple
+
+    my_tuple = (1,2,3)
+    my_list = [1,2,3]
+    print(type(my_tuple))
+    print(type(my_list))
+
+    # tuple methods
+    t = ('a','a','b')
+    print(t.count('a'))
+    print(t.index('b'))
+
+    my_list[0] = 'new'
+    # my_tuple[0] = 'new' --> Results in an error due to immutability
+
+    ## SETS
+    print('\n====')
+    print('SETS')
+    print('====')
+
+    # unordered collections of unique elements
+    my_set = set()
+    print(my_set)
+    my_set.add(1)
+    print(my_set)
+    my_set.add(2)
+    my_set.add(2)
+    print(my_set)
+    my_list = [1,1,1,1,2,2,2,1,3,3,4,5,4,4,4,6,5]
+    new_set = set(my_list)
+    print(new_set)
+
     pass
 main()
