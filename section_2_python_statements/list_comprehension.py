@@ -26,6 +26,11 @@ def main():
     print(degrees_C)
     print(degrees_F)
 
+    # get first letter of each work using list comprehension
+    my_string = 'this is my string'
+    my_list = [word[0] for word in my_string.split()]
+    print(my_list)
+
 
     pass
 main()
